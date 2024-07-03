@@ -21,7 +21,7 @@ function SendEmail() {
       content
     };
 
-    const response = await fetch('http://localhost:8000/users/send_email', {
+    const response = await fetch('https://bulkmail-backend-qss7.onrender.com/users/send_email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
